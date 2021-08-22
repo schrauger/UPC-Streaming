@@ -8,6 +8,7 @@
 * Castr.io Dashboard - [https://castr.io/app/multistreams/5f7610a85f9db667efaad707/dashboard](https://castr.io/app/multistreams/5f7610a85f9db667efaad707/dashboard)
 * Facebook Livestream - [https://www.facebook.com/live/producer](https://www.facebook.com/live/producer)
 * Youtube Livestream - [https://studio.youtube.com/channel/UClsIo25a477hwJqr0tbCGFw/livestreaming/manage](https://studio.youtube.com/channel/UClsIo25a477hwJqr0tbCGFw/livestreaming/manage)
+* Web Captioner - [https://webcaptioner.com/captioner](https://webcaptioner.com/captioner)
 
 ## Hardware 
 * Turn on Canon backup camera
