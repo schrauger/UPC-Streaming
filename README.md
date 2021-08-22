@@ -102,7 +102,7 @@ Ensure all the settings are correct, then click <kbd>Schedule Live Video</kbd>
 * When the timer hits 0 and the projector starts playing the Intro video:
   * **OBS** - Switch to `! Intro Part 2 - switch to this scene while intro video plays`
 * After the video fades away and the service starts:
-  * **OBS** - Switch to `! Main Service w/slides - MAIN SCENE DURING SERVICE` for all songs and for the sermon
+  * **OBS** - Switch to `! Main Service with lyrics - MAIN SCENE DURING SERVICE` for all songs and for the sermon
   * If any photos or videos are to be shown during announcements, switch to the `Main Service w/videos & slides` scene
 
 ## After service
