@@ -2,6 +2,13 @@
 
 # Setup
 
+## Quick Links
+* Instructions - [https://github.com/schrauger/UPC-Streaming#readme](https://github.com/schrauger/UPC-Streaming#readme)
+* Planning Center - https://services.planningcenteronline.com/dashboard/0
+* Castr.io Dashboard - [https://castr.io/app/multistreams/5f7610a85f9db667efaad707/dashboard](https://castr.io/app/multistreams/5f7610a85f9db667efaad707/dashboard)
+* Facebook Livestream - [https://www.facebook.com/live/producer](https://www.facebook.com/live/producer)
+* Youtube Livestream - [https://studio.youtube.com/channel/UClsIo25a477hwJqr0tbCGFw/livestreaming/manage](https://studio.youtube.com/channel/UClsIo25a477hwJqr0tbCGFw/livestreaming/manage)
+
 ## Hardware 
 * Turn on Canon backup camera
 * Boot up streaming computer (congratulations, by reading this note, you have successfully completed this step!)
