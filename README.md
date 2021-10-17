@@ -84,6 +84,9 @@ Ensure all the settings are correct, then click <kbd>Schedule Live Video</kbd>
 * Click the toggle to go live on all streams. 
   * This will not cause Facebook or YouTube to go live but will still let you test both platforms to ensure you are receiving video streams.
 
+## Castr alternative 
+* In OBS, click Start Streaming, then either click to ignore the error or, if there is no error, click Stop Streaming
+
 
 # Service
 
@@ -91,7 +94,8 @@ Ensure all the settings are correct, then click <kbd>Schedule Live Video</kbd>
 ### OBS
 * Set scene to `! Prelude (if band/piano player)` - don't forget to <kbd>transition</kbd>
 * Start broadcasting to castr.io, and activate the toggles within castr to push the stream to youtube and facebook (or just click Toggle All)
-
+* Castr alternative:
+** click `Start` under `YouTube Primary` and `Facebook Primary`
 
 ## 5-15 minutes before
 * Start Recording on the Canon Camera (physical record button, to save a backup to the internal sd card)
