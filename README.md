@@ -32,16 +32,17 @@ Make sure the Audio button for MIC 1 is On - it should be red. If the white Off 
 ## OBS Studio 
 
 * Change the Quote and Author text files located in this folder:
-* `C:\Users\UPC\Desktop\Quotes - Change these every week`
+* `C:\Users\UPC Streaming\Desktop\Quotes - Change these every week`
 * Do not add line breaks to the quote unless the quote calls for it. The text will automatically reflow and resize to fit, so line breaks are only needed if a quote uses them for artistic or other purposes (like a poem or psalm).
 
 
 ## YouTube 
-* Go to your Video Library and to the Live section to Create a Go Live stream.
+* Go to your Video Library and to the Live section. Click the <kbd>SCHEDULE STREAM</kbd> button to Create a Go Live stream.
 * https://studio.youtube.com/channel/UClsIo25a477hwJqr0tbCGFw/livestreaming/manage
 
-* Copy the previous week's settings.
-  * update the title.
+* Copy the previous week's settings by clicking the <kbd>REUSE SETTINGS</kbd> button
+  * Update the title with this weeks speaker, the sermon <b>series</b>, and the date
+  * Update the description, changing the current sermon <b>title</b>, and removing the timestamp bookmarks
   * Set the date to today (or the upcoming sunday) and the time to **5 minutes prior to** the sunday morning service time - 9:55am
     * This is so the stream starts 5 minutes early and shows the pre-service announcements, Reflection quote, and gives the visual ambiance of people arriving to church.
 * Click create
@@ -53,49 +54,33 @@ Make sure the Audio button for MIC 1 is On - it should be red. If the white Off 
 * Go to this url:
 * https://www.facebook.com/live/producer
 
-* Under `Choose where to post`, choose `Post in group` -> `UPC Orlando`
-* Select the radio button `Schedule live video event`
-* Click <kbd>Next</kbd>
-
+* On the left, under `Choose where to post`, choose `Post in group` -> `UPC Orlando`
+* In the `Create live video event` section, click the <kbd>Select</kbd> button
+* Click the `Fill in with past event details` toggle, to copy the previous event settings and info
 * Set the date to today (or the upcoming sunday) and the time to **5 minutes prior to** the sunday morning service time - 9:55am
   * This is so the stream starts 5 minutes early and shows the pre-service announcements, Reflection quote, and gives the visual ambiance of people arriving to church.
 
-* Set the title (update the date)
-<pre>
-UPC Worship Service <b>2021-08-15</b>
-</pre>
+* Set the title (copy from YouTube)
+* Set the description (copy from YouTube)
+* Click <kbd>Next</kbd>
 
-* Set the description (same for every video)
-<pre>
-Welcome!
 
-Worship Guide: https://www.upcorlando.org/weekly-worship-guides
-</pre>
-
+* Click on the `Settings` section, and click `Stream`
 * Under `Setup Options`, ensure the toggle is enabled for `Use a Persistent Stream Key`.
 * Under `Setup Options`, enable the toggle for `Use a Backup Stream`.
 
-Ensure all the settings are correct, then click <kbd>Schedule Live Video</kbd>
+Ensure all the settings are correct, then click <kbd>Create event</kbd>
 
-## Castr.io 
-* https://castr.io
-* Make sure Facebook and YouTube are ready with a **scheduled** stream before enabling castr.
-* Go to [dashboard](https://castr.io/app/dashboard), click on the UPC Worship Service stream.
-* Click the toggle to go live on all streams. 
-  * This will not cause Facebook or YouTube to go live but will still let you test both platforms to ensure you are receiving video streams.
-
-## Castr alternative 
-* In OBS, click Start Streaming, then either click to ignore the error or, if there is no error, click Stop Streaming
-
+* Click <kbd>Setup live video</kbd> to view the video preview and livestream controls
+* You <b>MUST</b> also click on the <kbd>Streaming software</kbd> button to switch to the livestream software video source instead of the selfie camera
 
 # Service
 
-## 45 minutes before
+## 30 minutes before
 ### OBS
 * Set scene to `! Prelude (if band/piano player)` - don't forget to <kbd>transition</kbd>
-* Start broadcasting to castr.io, and activate the toggles within castr to push the stream to youtube and facebook (or just click Toggle All)
-* Castr alternative:
-** click `Start` under `YouTube Primary` and `Facebook Primary`
+* Click <kbd>Start Streaming</kbd> under the main `Controls` section, which will start sending data to YouTube
+* Click `Start` under `Facebook Primary`, which will start sending data to Facebook
 
 ## 5-15 minutes before
 * Start Recording on the Canon Camera (physical record button, to save a backup to the internal sd card)
@@ -106,8 +91,9 @@ Ensure all the settings are correct, then click <kbd>Schedule Live Video</kbd>
 * When the timer hits 0 and the projector starts playing the Intro video:
   * **OBS** - Switch to `! Intro Part 2 - switch to this scene while intro video plays`
 * After the video fades away and the service starts:
-  * **OBS** - Switch to `! Main Service with lyrics - MAIN SCENE DURING SERVICE` for all songs and for the sermon
-  * If any photos or videos are to be shown during announcements, switch to the `Main Service w/videos & slides` scene
+  * **OBS** - Switch to `! Main Service w/slides - MAIN SCENE DURING SERVICE` for all songs and for the sermon
+  * If any photos or videos are to be shown during announcements, switch to the `Main Service, 50/50 split screen with direct projector - Open OBS on ProPresenter Mac for NDI Output` scene
+    * Make sure to tell the ProPresenter operator to open OBS Studio on their computer. It does not have to run or have anything happen besides being open 
 
 ## After service
 * After the doxology, the band will play a song. Change OBS to `! Postlude`, and have the camera set to a wide view of the auditorium.
