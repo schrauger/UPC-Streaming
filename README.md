@@ -52,7 +52,7 @@ Make sure the Audio button for MIC 1 is On - it should be red. If the white Off 
 ## Facebook
 
 * Go to this url:
-* https://www.facebook.com/live/producer
+* https://www.facebook.com/live/producer/v2/?target_id=2391252443
 
 * On the left, under `Choose where to post`, choose `Post in group` -> `UPC Orlando`
 * In the `Create live video event` section, click the <kbd>Select</kbd> button
